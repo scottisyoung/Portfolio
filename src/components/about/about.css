@@ -1,0 +1,35 @@
+.container {
+    height: 1000px;
+    width: 100%;
+    margin: 0 none;
+    padding: 0;
+    background: rgba(3, 2, 2, 0.96);
+    background: -webkit-linear-gradient(black, rgb(43, 43, 43));
+    background: -o-linear-gradient(black, rgb(43, 43, 43));
+    background: -moz-linear-gradient(black, rgb(43, 43, 43));
+    background: linear-gradient(black, rgb(43, 43, 43));
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .aboutMe {
+    margin-top: 0px;
+    height: 800px;
+    width: 1000px;
+    background-color: rgba(184, 184, 184, 0.5);
+    z-index: 100;
+    border: 2px solid rgb(10, 220, 235);;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  
+  .myPicture {
+    margin-top: 0px;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+  }

@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    background: rgba(27, 24, 24, 0.96);
+    background: -webkit-linear-gradient(black, rgb(19, 19, 19));
+    background: -o-linear-gradient(black, rgb(19, 19, 19));
+    background: -moz-linear-gradient(black, rgb(19, 19, 19));
+    background: linear-gradient(black, rgb(19, 19, 19));
+    box-shadow: 1px 1px rgb(155, 154, 154);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#home {
+    margin-left: 150px;
+    color: rgb(4, 235, 252);
+}
+
+#home:hover {
+    color: rgb(22, 209, 69);
+    transition: 1s; 
+}
+
+.directory {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(145, 145, 145);
+    margin-left: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    cursor: pointer;
+}
+
+.directory:hover {
+    color: rgb(4, 235, 252);
+    transition: 1s;
+}

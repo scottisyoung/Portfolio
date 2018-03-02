@@ -1,0 +1,175 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    margin: 0 none;
+    padding: 0;
+    background: rgba(27, 24, 24, 0.96);
+    background: -webkit-linear-gradient(black, rgb(43, 43, 43));
+    background: -o-linear-gradient(black, rgb(43, 43, 43));
+    background: -moz-linear-gradient(black, rgb(43, 43, 43));
+    background: linear-gradient(black, rgb(43, 43, 43));
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  video {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+  }
+  
+  .videoDiv {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .name {
+    color: white;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    left: 64%;
+    top: 33%;
+    font-size: 4em;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: -0.1em;
+  }
+  
+  .dot {
+    margin-left: -20px;
+    line-height: 0;
+    font-size: 2em;
+    font-family: 'Pompiere', cursive;
+    color: rgb(4, 235, 252);
+    animation: colorchange 4s 1;
+    -webkit-animation: colorchange 4s 1; 
+  }
+  
+  @keyframes colorchange {
+    0% {
+      color:white;
+    }
+  
+    50% { 
+      color: white;
+    }
+  
+    100% {
+      color: rgb(0, 238, 255);
+    }
+  } 
+  
+  @-webkit-keyframes colorchange {
+    0% {
+      color:white;
+    }
+  
+    50% { 
+      color: white;
+    }
+  
+    100% {
+      color: rgb(0, 238, 255);
+    }
+  }
+  
+  .title {
+    list-style: none;
+    position: absolute;
+    left: 71%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .title li {
+    display: inline-block;
+    margin-right: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: rgb(20, 209, 223);
+    text-shadow: 2px 2px black;
+    opacity: 1;
+    transition: all 2.5s ease;
+  }
+  .title li:last-child {
+    margin-right: 0;
+  }
+  .title.hidden li {
+    opacity: 0;
+  }
+  .title.hidden li:nth-child(1) { transform: translateX(-400px) translateY(-400px); }
+  .title.hidden li:nth-child(2) { transform: translateX(40px) translateY(200px); }
+  .title.hidden li:nth-child(3) { transform: translateX(-250px) translateY(-180px); }
+  
+  
+  .fly-in-text {
+    list-style: none;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .fly-in-text li {
+    display: inline-block;
+    margin-right: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px black;
+    opacity: 1;
+    transition: all 2.5s ease;
+  }
+  .fly-in-text li:last-child {
+    margin-right: 0;
+  }
+  .fly-in-text.hidden li {
+    opacity: 0;
+  }
+  .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+  .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+  .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+  .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+  .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+  .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+  .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+  .fly-in-text.hidden li:nth-child(8) { transform: translateX(-200px) translateY(-200px);}
+  .fly-in-text.hidden li:nth-child(9) { transform: translateX(20px) translateY(100px); }
+
+
+  .arrowDown {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.014);
+    box-shadow: 1px .5px .5px .5px rgba(155, 154, 154, 0.938);
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arrowDown:hover {
+    box-shadow: 3px 3px 3px 3px rgb(20, 209, 223);
+  }
+
+  .arrowDown:hover i:nth-child(1) {
+    color: rgb(20, 209, 223);
+  }
+
+  .fa-chevron-down {
+    color: rgb(145, 145, 145);
+  }
