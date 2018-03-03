@@ -37,8 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     font-size: 50px;
     color: rgb(224, 224, 190);
     font-family: 'Nothing You Could Do', cursive;
@@ -60,15 +60,10 @@
     justify-content: center;
     align-items: center;
     width: 480px;
-    color: rgb(145, 145, 145);
+    color: rgb(230, 230, 230);
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: .1em;
     font-weight: 400;
-  }
-
-  .subtitles:hover {
-    color: white;
-    transition: .5s;
   }
 
   .subtitles2 {
@@ -76,38 +71,32 @@
     justify-content: center;
     align-items: center;
     width: 480px;
-    color: rgb(145, 145, 145);
+    color: rgb(230, 230, 230);
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: .1em;
     font-weight: 400;
-    margin-top: -300px;
-  }
-
-  .subtitles2:hover {
-    color: white;
-    transition: .5s;
+    margin-top: -160px;
   }
 
   .linky {
     text-align: left;
     text-decoration: none;
     cursor: default;
-    color: white;
     display: inline-block;
-    height: 200px;
+    height: 240px;
     width: 480px;
     position: relative;
     padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 5px;
-    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
   }
 
   .linky:before {
     content: '';
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 0;
     height: 0;
     background: transparent;
@@ -132,7 +121,7 @@
 
     50%
     {
-      width: 100%;
+      width: 98.5%;
       height: 0;
       border-top-color: rgb(4, 235, 252);
       border-right-color: rgb(4, 235, 252);
@@ -142,8 +131,8 @@
 
     100%
     {
-      width: 100%;
-      height: 100%;
+      width: 98.5%;
+      height: 98%;
       border-top-color: rgb(4, 235, 252);
       border-right-color: rgb(4, 235, 252);
       border-bottom-color: transparent;
@@ -182,7 +171,7 @@
     50%
     {
       width: 0;
-      height: 100%;
+      height: 98%;
       border-top-color: transparent;
       border-right-color: transparent;
       border-bottom-color: rgb(4, 235, 252);;
@@ -191,8 +180,8 @@
 
     100%
     {
-      width: 100%;
-      height: 100%;
+      width: 98.5%;
+      height: 98%;
       border-top-color: transparent;
       border-right-color: transparent;
       border-bottom-color: rgb(4, 235, 252);;
@@ -205,11 +194,17 @@
     justify-content: center;
     align-items: baseline;
     width: 480px;
-    height: 220px;
-    margin-top: 300px;
-    color: white;
-    line-height: 1.4em;
+    margin-top: 340px;
+    color:rgb(99, 92, 63);
+    line-height: 1.5em;
     font-family: 'Raleway', sans-serif;
+  }
+
+  .paragraphs:hover a:nth-child(1) {
+    color: rgb(228, 228, 228);
+    box-shadow: 10px 10px 200px 10px rgba(216, 204, 161, 0.527);
+    transition: 4s;
+    background: rgb(51, 51, 51);
   }
 
   .paragraphs2 {
@@ -217,21 +212,28 @@
     justify-content: center;
     align-items: baseline;
     width: 480px;
-    height: 225px;
-    color: white;
-    line-height: 1.4em;
+    height: 105px;
+    color:rgb(99, 92, 63);
+    line-height: 1.5em;
     font-family: 'Raleway', sans-serif;
   }
 
+  .paragraphs2:hover a:nth-child(1) {
+    color: rgb(228, 228, 228);
+    box-shadow: 10px 10px 200px 10px rgba(216, 204, 161, 0.527);
+    transition: 4s;
+    background: rgb(51, 51, 51);
+  }
+
   .myPicture {
-    margin-top: 180px;
+    margin-top: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
     width: 200px;
     background-color: rgb(22, 22, 22);
-    box-shadow: 60px 40px 500px 0px rgba(2, 123, 145, 0.534);
+    box-shadow: 30px 30px 1000px 3px rgba(5, 105, 122, 0.671);
     border-radius: 20px;
   }
 

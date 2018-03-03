@@ -19,24 +19,28 @@ class About extends Component {
                                 </div>
 
                                 <div className="amParent">
-                                    <div className="paragraphs"><a className="linky" href="#about">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> 
-                                                                sed do eiusmod tempor incididunt ut labore et dolore magna <br/>  
-                                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/>
-                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-                                                                Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>
-                                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/>
-                                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit <br/>
-                                                                anim id est laborum."</a>
+                                    <div className="paragraphs"><a className="linky" href="#about">
+                                                                I have always had a passion for technology. I am facinated<br/> 
+                                                                with how things function and the ingenuity that goes into <br/>
+                                                                those designs. Along with this facination towards tech, I <br/> 
+                                                                was fortunate to given a very creative mind. I love being <br/>
+                                                                artistic and utilizing my creativity in a variety of ways.<br/> 
+                                                                However, I use to see these aspirations as simply hobbies.<br/> 
+                                                                Because of this, I tried many jobs and a variety of career<br/> 
+                                                                paths but none would satisfy my desires to learn and apply<br/> 
+                                                                myself in the ways that I craved. It wasn't until I began <br/>
+                                                                coding that I realized I had found a truely fulfilling career.</a>
                                     </div>
 
-                                    <div className="paragraphs"><a className="linky" href="#about">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> 
-                                                                sed do eiusmod tempor incididunt ut labore et dolore magna <br/>  
-                                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/>
-                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-                                                                Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>
-                                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/>
-                                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit <br/>
-                                                                anim id est laborum."</a>
+                                    <div className="paragraphs"><a className="linky" href="#about">
+                                                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore <br/> 
+                                                                magna aliqua. Ut enim ad minim veniam, quis nostrud <br/> 
+                                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo <br/> 
+                                                                consequat. Duis aute irure dolor in reprehenderit in <br/> 
+                                                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br/> 
+                                                                Excepteur sint occaecat cupidatat non proident, sunt in <br/>
+                                                                culpa qui officia deserunt mollit anim id est laborum."</a>
                                     </div>
                                 </div>
 
@@ -50,24 +54,26 @@ class About extends Component {
                             </div>
 
                                 <div className="amParent">
-                                    <div className="paragraphs2"><a className="linky" href="#about">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> 
-                                                                sed do eiusmod tempor incididunt ut labore et dolore magna <br/>  
-                                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/>
-                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-                                                                Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>
-                                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/>
-                                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit <br/>
-                                                                anim id est laborum."</a>
+                                    <div className="paragraphs2"><a className="linky" href="#about">
+                                                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore <br/> 
+                                                                magna aliqua. Ut enim ad minim veniam, quis nostrud <br/> 
+                                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo <br/> 
+                                                                consequat. Duis aute irure dolor in reprehenderit in <br/> 
+                                                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br/> 
+                                                                Excepteur sint occaecat cupidatat non proident, sunt in <br/>
+                                                                culpa qui officia deserunt mollit anim id est laborum."</a>
                                     </div>
 
-                                    <div className="paragraphs2"><a className="linky" href="#about">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> 
-                                                                sed do eiusmod tempor incididunt ut labore et dolore magna <br/>  
-                                                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/>
-                                                                ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-                                                                Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>
-                                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/>
-                                                                cupidatat non proident, sunt in culpa qui officia deserunt mollit <br/>
-                                                                anim id est laborum."</a>
+                                    <div className="paragraphs2"><a className="linky" href="#about">
+                                                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore <br/> 
+                                                                magna aliqua. Ut enim ad minim veniam, quis nostrud <br/> 
+                                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo <br/> 
+                                                                consequat. Duis aute irure dolor in reprehenderit in <br/> 
+                                                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br/> 
+                                                                Excepteur sint occaecat cupidatat non proident, sunt in <br/>
+                                                                culpa qui officia deserunt mollit anim id est laborum."</a>
                                     </div>
                                 </div>
 
