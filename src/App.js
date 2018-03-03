@@ -10,7 +10,7 @@ import Navbar from '../src/components/navbar/navbar.js';
 import Home from '../src/components/home/home.js';
 import About from '../src/components/about/about.js';
 
-configureAnchors({offset: -100, scrollDuration: 2000})
+configureAnchors({offset: -135, scrollDuration: 1500})
 
 class App extends Component {
 

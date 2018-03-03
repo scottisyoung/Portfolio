@@ -4,7 +4,7 @@
     left: 0;
     height: 80px;
     width: 100%;
-    z-index: 100;
+    z-index: 101;
     background: rgba(27, 24, 24, 0.96);
     background: -webkit-linear-gradient(black, rgb(19, 19, 19));
     background: -o-linear-gradient(black, rgb(19, 19, 19));
@@ -18,7 +18,8 @@
 }
 
 #home {
-    margin-left: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
     color: rgb(4, 235, 252);
 }
 
@@ -28,6 +29,7 @@
 }
 
 .directory {
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 600;
     color: rgb(145, 145, 145);
@@ -40,3 +42,11 @@
     color: rgb(4, 235, 252);
     transition: 1s;
 }
+
+.linkDown {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: inherit;
+  }

@@ -1,5 +1,5 @@
 .container {
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     margin: 0 none;
     padding: 0;
@@ -15,21 +15,185 @@
   }
   
   .aboutMe {
-    margin-top: 0px;
-    height: 800px;
-    width: 1000px;
-    background-color: rgba(184, 184, 184, 0.5);
+    margin-top: 150px;
+    height: 900px;
+    width: 1400px;
+    background: rgba(3, 2, 2, 0.96);
+    background: -webkit-linear-gradient(rgb(12, 12, 12), rgb(51, 51, 51));
+    background: -o-linear-gradient(rgb(12, 12, 12),  rgb(51, 51, 51));
+    background: -moz-linear-gradient(rgb(12, 12, 12),  rgb(51, 51, 51));
+    background: linear-gradient(rgb(12, 12, 12),  rgb(51, 51, 51));
     z-index: 100;
-    border: 2px solid rgb(10, 220, 235);;
-    border-radius: 5px;
+    box-shadow: 50px 80px 250px 5px rgba(216, 204, 161, 0.527);
+    border-radius: 100px;
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
+    flex-direction: column;
   }
-  
+
+  .amTitle {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: rgb(224, 224, 190);
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
+    letter-spacing: .1em;
+  }
+
+  .amParent {
+    width: 80%;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .subtitles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: rgb(145, 145, 145);
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 400;
+  }
+
+  .linky {
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+    color: white;
+    display: inline-block;
+    height: 20px;
+    width: 220px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .linky:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+
+  .linky:hover:before {
+    animation: animate 1s linear forwards;
+  }
+
+  @keyframes animate 
+  {
+    0%
+    {
+      width: 0;
+      height: 0;
+      border-top-color: rgb(4, 235, 252);
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+
+    50%
+    {
+      width: 100%;
+      height: 0;
+      border-top-color: rgb(4, 235, 252);
+      border-right-color: rgb(4, 235, 252);
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+
+    100%
+    {
+      width: 100%;
+      height: 100%;
+      border-top-color: rgb(4, 235, 252);
+      border-right-color: rgb(4, 235, 252);
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+
+  .linky:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 1px solid transparent;
+  }
+
+  .linky:hover:after {
+    animation: animate2 1s linear forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes animate2 
+  {
+    0%
+    {
+      width: 0;
+      height: 0;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: rgb(4, 235, 252);;
+    }
+
+    50%
+    {
+      width: 0;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: rgb(4, 235, 252);;
+      border-left-color: rgb(4, 235, 252);;
+    }
+
+    100%
+    {
+      width: 100%;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: rgb(4, 235, 252);;
+      border-left-color: rgb(4, 235, 252);;
+    }
+  }
+
+ 
+
   .myPicture {
-    margin-top: 0px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     width: 200px;
-    background-color: white;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 60px 40px 500px 0px rgba(2, 123, 145, 0.534);
+    border-radius: 20px;
+  }
+
+  .photo {
+    height: 300px;
+    border-radius: 10px;
   }
