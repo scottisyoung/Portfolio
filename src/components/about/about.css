@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-size: 50px;
     color: rgb(224, 224, 190);
     font-family: 'Nothing You Could Do', cursive;
@@ -59,27 +59,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 480px;
     color: rgb(145, 145, 145);
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: .1em;
     font-weight: 400;
   }
 
+  .subtitles:hover {
+    color: white;
+    transition: .5s;
+  }
+
+  .subtitles2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    color: rgb(145, 145, 145);
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 400;
+    margin-top: -300px;
+  }
+
+  .subtitles2:hover {
+    color: white;
+    transition: .5s;
+  }
+
   .linky {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     cursor: default;
     color: white;
     display: inline-block;
-    height: 20px;
-    width: 220px;
+    height: 200px;
+    width: 480px;
     position: relative;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
     padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
   }
 
   .linky:before {
@@ -90,7 +111,7 @@
     width: 0;
     height: 0;
     background: transparent;
-    border: 1px solid transparent;
+    border: 4px solid transparent;
   }
 
   .linky:hover:before {
@@ -138,7 +159,7 @@
     width: 0;
     height: 0;
     background: transparent;
-    border: 1px solid transparent;
+    border: 4px solid transparent;
   }
 
   .linky:hover:after {
@@ -179,10 +200,31 @@
     }
   }
 
- 
+  .paragraphs {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 480px;
+    height: 220px;
+    margin-top: 300px;
+    color: white;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .paragraphs2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 480px;
+    height: 225px;
+    color: white;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
+  }
 
   .myPicture {
-    margin-top: 300px;
+    margin-top: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
