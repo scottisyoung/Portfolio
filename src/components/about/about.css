@@ -83,7 +83,7 @@
     text-decoration: none;
     cursor: default;
     display: inline-block;
-    height: 240px;
+    height: 250px;
     width: 480px;
     position: relative;
     padding-top: 20px;
@@ -165,7 +165,7 @@
       border-top-color: transparent;
       border-right-color: transparent;
       border-bottom-color: transparent;
-      border-left-color: rgb(4, 235, 252);;
+      border-left-color: rgb(4, 235, 252);
     }
 
     50%
@@ -174,8 +174,8 @@
       height: 98%;
       border-top-color: transparent;
       border-right-color: transparent;
-      border-bottom-color: rgb(4, 235, 252);;
-      border-left-color: rgb(4, 235, 252);;
+      border-bottom-color: rgb(4, 235, 252);
+      border-left-color: rgb(4, 235, 252);
     }
 
     100%
@@ -184,8 +184,8 @@
       height: 98%;
       border-top-color: transparent;
       border-right-color: transparent;
-      border-bottom-color: rgb(4, 235, 252);;
-      border-left-color: rgb(4, 235, 252);;
+      border-bottom-color: rgb(4, 235, 252);
+      border-left-color: rgb(4, 235, 252);
     }
   }
 
@@ -207,6 +207,12 @@
     background: rgb(51, 51, 51);
   }
 
+  #realizedP:hover #realized  {
+    color: rgb(4, 235, 252) !important;
+    transition: 2s;
+    font-weight: 900;
+  }
+
   .paragraphs2 {
     display: flex;
     justify-content: center;
@@ -218,11 +224,87 @@
     font-family: 'Raleway', sans-serif;
   }
 
-  .paragraphs2:hover a:nth-child(1) {
+  .paragraphs2:hover .linky:nth-child(1) {
     color: rgb(228, 228, 228);
     box-shadow: 10px 10px 200px 10px rgba(216, 204, 161, 0.527);
     transition: 4s;
     background: rgb(51, 51, 51);
+  }
+
+  .paragraphs2:hover a:nth-child(1) {
+    color: rgb(228, 228, 228);
+    transition: 4s;
+    z-index: 200 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    z-index: 200;
+  }
+
+  #span1:hover #span2 {
+    color: rgb(4, 235, 252);
+    transition: 2s;
+  }
+
+  .lParent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 3px;
+  }
+
+  .lParent2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 3px;
+  }
+
+  #span3 {
+    width: 300px;
+  }
+
+  .description2 {
+    font-size: 14px;
+  }
+
+  #span2 {
+    width: 100px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .paragraphs2:hover span:nth-child(1) {
+    color: black;
+    transition: 1s;
+    cursor: pointer !important;
+    z-index: 200;
+    height: 50px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraphs2:hover i:nth-child(1) {
+    color: rgb(4, 235, 252) !important;
+    transition: 2s;
+    z-index: 200 !important;
+    text-decoration: none !important;
+  }
+
+  #background:hover #span3 {
+    color: rgb(4, 235, 252) !important;
+  }
+
+  #sizeDiv:hover #size {
+    background-color:  rgb(4, 235, 252) !important;
+    transition: 2s;
+    cursor: pointer !important;
+    z-index: 200;
   }
 
   .myPicture {
@@ -241,3 +323,81 @@
     height: 300px;
     border-radius: 10px;
   }
+
+  .linksParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconsParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconsF {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    cursor: pointer !important;
+    color:rgb(99, 92, 63) !important;
+    text-decoration: none !important;
+  }
+
+  #iconsF {
+    color:rgb(99, 92, 63);
+    text-decoration: none !important;
+    cursor: pointer !important;
+  }
+
+  a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none !important;
+}
+
+  .iSize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color:rgba(44, 44, 44, 0);
+    border-radius: 20px;
+  }
+
+  .Size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:100px;
+    color: black;
+    background-color:rgb(99, 92, 63);
+    border-radius: 5px;
+  }
+
+  .othersParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .other {
+    margin-top: 30px;
+    cursor: pointer !important;
+    height: 50px;
+    width:100px;
+  }
+
+  .other a {
+    cursor: pointer !important;
+    text-decoration: none;
+    color:rgb(99, 92, 63);
+  }
+
+  
