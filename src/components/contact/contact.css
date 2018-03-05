@@ -1,0 +1,13 @@
+.contactContainer {
+    height: 1200px;
+    width: 100%;
+    background: rgba(3, 2, 2, 0.96);
+    background: -webkit-linear-gradient( rgb(43, 43, 43), rgb(146, 146, 146));
+    background: -o-linear-gradient( rgb(43, 43, 43),  rgb(146, 146, 146));
+    background: -moz-linear-gradient( rgb(43, 43, 43),  rgb(146, 146, 146));
+    background: linear-gradient( rgb(43, 43, 43),  rgb(146, 146, 146));
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}

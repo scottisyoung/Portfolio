@@ -5,17 +5,17 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 class Projects extends Component {
 
     render() {
+
         return(
             <div>
+                <ScrollableAnchor id={'projects'}>
                 <div className="projectContainer">
-                    <ScrollableAnchor id={'projects'}>
-                    <div>
-                        
-                    </div>
-                    </ScrollableAnchor>
+                    
                 </div>
+                </ScrollableAnchor>
             </div>
         )
     }
-}``
+}
+
 export default Projects;

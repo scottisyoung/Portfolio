@@ -11,6 +11,7 @@ import Home from '../src/components/home/home.js';
 import About from '../src/components/about/about.js';
 import Projects from '../src/components/projects/projects.js';
 import Skills from '../src/components/skills/skills.js';
+import Contact from '../src/components/contact/contact.js';
 
 configureAnchors({offset: -110, scrollDuration: 1500})
 
@@ -26,6 +27,8 @@ class App extends Component {
           <Home/>
           <About/>
           <Projects/>
+          <Skills/>
+          <Contact/>
       </div>
     );
   }
