@@ -13,33 +13,185 @@
 }
 
 .sliderTitle {
-    margin-top: 350px;
-}
-
-.skillsScrollParent {
-    margin: 0 auto;
-    min-height: 0;
-    min-width: 0;
-    padding: 10px;
-    width: 60%;
-    color: black;
-    background: rgba(128, 128, 128, 0);
-}
-
-
-.slider {
+    margin-top: 100px;
+    color: white;
+    width: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;   
-    width: 100%; 
-    color: white;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(224, 224, 190);
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
+    letter-spacing: .1em;
 }
 
-h3 {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1.5em;
-    letter-spacing: .02em;
+.sliderSub {
+    margin-top: 30px;
+    margin-bottom: 180px;
+    color: rgb(230, 230, 230);
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  min-width: 0;
+  min-height: 0;
+  background: rgba(3, 2, 2, 0.96);
+  background: -webkit-linear-gradient(rgb(20, 20, 20),rgb(51, 51, 51), rgb(12, 12, 12));
+  background: -o-linear-gradient(rgb(20, 20, 20), rgb(51, 51, 51), rgb(12, 12, 12));
+  background: -moz-linear-gradient(rgb(20, 20, 20), rgb(51, 51, 51), rgb(12, 12, 12));
+  background: linear-gradient(rgb(20, 20, 20),rgb(51, 51, 51), rgb(12, 12, 12));
+  box-shadow: 10px 10px 200px 20px rgba(216, 204, 161, 0.527);
+  border-radius: 50px;
+}
+
+.slick-slider {
+    margin: 0px 20px 0px;
   }
+
+.slider {
+    min-width: 0;
+    min-height: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-top: 25px;
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(104, 100, 84, 0);
+}
+
+.icons:hover hr:nth-child(2) {
+    border: 1px solid rgb(4, 235, 252);
+}
+
+#icon:hover #iconhov {
+    color: white;
+    transition: 2s;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80px;  
+    border: 2px solid rgba(0, 0, 0, 0.459);
+}
+
+.icons:hover {
+    background-color: rgba(31, 31, 30, 0.925);
+    box-shadow: 1px 1px 20px 5px rgb(4, 235, 252);
+    transition: 3s;
+}
+
+.iconDes {
+    text-align: center;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 35px;
+}
+
+.iconDes span {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+
+.html {
+    height: 90px;
+}
+
+.css {
+    height: 90px;
+}
+
+.js {
+    height: 130px;
+    width: 130px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.react {
+    height: 110px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.redux {
+    height: 90px;
+}
+
+.node {
+    height: 150px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.express {
+    height: 110px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.postgres {
+    margin-left: 5px;
+    height: 110px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.git {
+    height: 110px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.github {
+    height: 110px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.sass {
+    height: 100px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.bootstrap {
+    height: 150px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.stripe {
+    border-radius: 10px;
+    height: 100px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.auth0 {
+    height: 150px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.angular {
+    height: 120px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+
+
+
+

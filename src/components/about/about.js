@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return(
             <div>
-                <div className="container">
+                <div className="container1">
                     <ScrollableAnchor id={'about'}>
                         <div className="aboutMe">
 
