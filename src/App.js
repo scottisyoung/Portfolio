@@ -12,8 +12,9 @@ import About from '../src/components/about/about.js';
 import Projects from '../src/components/projects/projects.js';
 import Skills from '../src/components/skills/skills.js';
 import Contact from '../src/components/contact/contact.js';
+import Footer from '../src/components/footer/footer.js';
 
-configureAnchors({offset: -110, scrollDuration: 1500})
+configureAnchors({offset: -110, scrollDuration: 1000})
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Projects/>
           <Skills/>
           <Contact/>
+          <Footer/>
       </div>
     );
   }

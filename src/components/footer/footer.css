@@ -1,0 +1,24 @@
+
+.footerParent {
+    height: 80px;
+    width: 100%;
+    background: rgba(27, 24, 24, 0.96);
+    background: -webkit-linear-gradient(black, rgb(19, 19, 19));
+    background: -o-linear-gradient(black, rgb(19, 19, 19));
+    background: -moz-linear-gradient(black, rgb(19, 19, 19));
+    background: linear-gradient(black, rgb(19, 19, 19));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(231, 231, 231);
+}
+
+.copyright {
+    color: rgb(121, 121, 121);
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+
+#fp:hover #cr {
+    color: rgb(4, 235, 252);
+}

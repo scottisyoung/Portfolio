@@ -1,5 +1,5 @@
 .contactContainer {
-    height: 1200px;
+    height: 900px;
     width: 100%;
     background: rgba(3, 2, 2, 0.96);
     background: -webkit-linear-gradient( rgb(43, 43, 43), rgb(146, 146, 146));
@@ -11,3 +11,210 @@
     align-items: center;
     flex-direction: column;
 }
+
+.contactParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactTitle {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    color: rgb(224, 224, 190);
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.contactBox {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 10px;
+    border: 2px solid rgb(97, 97, 97);
+    box-shadow: 1px 0px 50px 0px rgba(216, 204, 161, 0.438);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.contactDetails {
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.myName {
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(235, 235, 235);
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.smallDot {
+    font-family: 'Pompiere', cursive;
+    color: rgb(4, 235, 252);
+    font-size: 40px;
+    line-height: .5em;
+}
+
+.myTitle {
+    margin-top: -3px;
+    margin-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(4, 235, 252);
+    text-shadow: .5px .5px black;
+    font-size: 20px;
+} 
+
+.dev {
+    color: rgb(235, 235, 235);
+    text-shadow: .5px .5px black;
+}
+
+.contactDetails hr {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: -30px;
+}
+
+.myEmail {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.myEmail span {
+   color:rgb(116, 116, 116);
+}
+
+.myPhone {
+    margin-bottom: 30px;
+    color: rgb(168, 168, 168);
+    font-family: 'Raleway', sans-serif;
+}
+
+#cd:hover #cd1 {
+    color: rgb(4, 235, 252);
+    transition: 2s;
+}
+
+#cd:hover #cd2 {
+    color: white;
+    transition: 2s;
+}
+
+#cd:hover #cd3 {
+    color: rgb(4, 235, 252);
+    transition: 2s;
+}
+
+#cd:hover hr {
+    border: 1px solid rgb(168, 168, 168); 
+    transition: 2s;
+}
+
+.myPhone span {
+    color:rgb(116, 116, 116);
+}
+
+#cd3 {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+
+.input1 {
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.input2 {
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.input3 {
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+input {
+    color: rgb(212, 212, 212);
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    height: 15px;
+    width: 400px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+
+textarea {
+    color: rgb(212, 212, 212);
+    background-color:rgb(39, 39, 39);
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border: none;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    height: 250px;
+    width: 400px;
+}
+
+::placeholder {
+    color: rgb(170, 170, 170);
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+    font-size: 12px;  
+    letter-spacing: .1em
+}
+
+.sendParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 423px;
+    height: 45px;
+}
+
+#sending {
+    background-color: white;
+    height: 45px;
+    width: 423px;
+    border-radius: 5px;
+    background-color:rgb(70, 70, 70);color: rgba(212, 212, 212, 0.815);
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    box-shadow: .5px .5px .5px .5px rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+#sending:hover {
+    background-color:rgb(70, 70, 70);
+    background-color:rgb(116, 116, 116);
+    color: white;
+    transition: .5s;
+}
+
+
