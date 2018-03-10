@@ -6,7 +6,7 @@ class Navbar extends Component {
         return(
             <div>
                 <div className="navbar">
-                    <div id="home" className="directory"><a id="home" className="linkDown" href="#home">Home</a></div>
+                    <div id="home" className="directory"><a id="home" className="linkDown" href="#homme">Home</a></div>
                     <div className="directory"><a className="linkDown" href="#about">About Me</a></div>
                     <div className="directory"><a className="linkDown" href="#projects">Projects</a></div>
                     <div className="directory"><a className="linkDown" href="#skills">Skills</a></div>
