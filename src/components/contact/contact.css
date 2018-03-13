@@ -203,7 +203,8 @@ textarea {
     height: 45px;
     width: 423px;
     border-radius: 5px;
-    background-color:rgb(70, 70, 70);color: rgba(212, 212, 212, 0.815);
+    background-color:rgb(70, 70, 70);
+    color: rgba(212, 212, 212, 0.815);
     font-family: 'Julius Sans One', sans-serif;
     font-size: 16px;
     box-shadow: .5px .5px .5px .5px rgb(37, 37, 37);
@@ -211,7 +212,6 @@ textarea {
 }
 
 #sending:hover {
-    background-color:rgb(70, 70, 70);
     background-color:rgb(116, 116, 116);
     color: white;
     transition: .5s;
