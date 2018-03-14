@@ -24,6 +24,7 @@
     font-family: 'Nothing You Could Do', cursive;
     font-weight: 600;
     letter-spacing: .1em;
+    text-shadow: 2px 5px 1px black;
   }
 
   .workMenuParent {
@@ -38,7 +39,7 @@
       cursor: pointer;
       font-size: 15px;
       background-color:rgb(70, 70, 70);
-      box-shadow: .5px .5px .5px .5px rgb(37, 37, 37);
+      box-shadow: 1px 1px 1px 1px rgb(15, 15, 15);
       width: 180px;
       height: 40px;
       border-radius: 3px;
@@ -59,24 +60,24 @@
     align-items: flex-start;
     flex-direction: row;
     width: 1300px;
-    height: 725px;
+    height: 710px;
     }
  
 .features {
-    height: 725px;
+    height: 710px;
     width: 1300px;
     overflow: auto;
     
 }
 
 .clones {
-    height: 725px;
+    height: 710px;
     width: 1300px;
     overflow: auto;
 }
 
 .apps {
-    height: 725px;
+    height: 710px;
     width: 1300px;
     overflow: auto;
 }
@@ -155,7 +156,7 @@
 }
 
 .desOverlay {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     color: rgb(226, 226, 226);
     text-shadow: .5px .5px .5px black;
     font-family: 'Raleway', sans-serif;
@@ -167,8 +168,28 @@
     font-weight: 600;
 }
 
+.liveSite {
+    margin-bottom: 3px;
+    background-color: rgb(82, 252, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    letter-spacing: .3em;
+}
+
+.liveSite:hover {
+    background: rgb(71, 71, 71);
+    color: white;
+}
+
 .videoWalk {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     background-color: rgb(82, 252, 243);
     display: flex;
     justify-content: center;
@@ -188,7 +209,7 @@
 }
 
 .gitHubLink {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background-color: rgb(82, 252, 243);
     color: rgb(71, 71, 71);
     display: flex;

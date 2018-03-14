@@ -23,10 +23,10 @@ class About extends Component {
                                         <a className="linky" href="#about">
                                             I have always had a passion for technology. I am facinated<br/> 
                                             with how things function and the ingenuity that goes into <br/>
-                                            those designs. Along with this facination towards tech, I <br/> 
+                                            the designs. Along with this facination towards tech, I <br/> 
                                             was fortunate to be given a very creative mind. I love being <br/>
                                             artistic and utilizing my creativity in a variety of ways.<br/> 
-                                            However, I use to see these aspirations as simply hobbies.<br/> 
+                                            However, I initially saw these aspirations as simply hobbies.<br/> 
                                             Because of this, I tried many jobs and a variety of career<br/> 
                                             paths but none would satisfy my desires to learn and apply<br/> 
                                             myself in the ways that I craved. It wasn't until I began <br/>

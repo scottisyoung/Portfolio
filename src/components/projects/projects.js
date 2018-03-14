@@ -3,12 +3,15 @@ import './projects.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 import wolfCreek from '../../images-video/project-snippits/WolfCreek.png';
+import pageConsulting from '../../images-video/project-snippits/PageConsulting2.png';
 import restore from '../../images-video/project-snippits/Restore.png';
+import amalfi from '../../images-video/project-snippits/Amalfi.PNG';
+import weather from '../../images-video/project-snippits/Weather App.PNG';
 import todo from '../../images-video/project-snippits/ToDo.png';
 import myAway from '../../images-video/project-snippits/myAway.png';
 import rocketMedia from '../../images-video/project-snippits/RocketMedia.PNG';
 import bigMarlin from '../../images-video/project-snippits/BigMarlin.PNG';
-import pageConsulting from '../../images-video/project-snippits/PageConsulting2.png';
+
 
 class Projects extends Component {
     
@@ -103,35 +106,48 @@ class Projects extends Component {
                                             <div className="titleOverlay">Wolf Creek Website</div>
                                             <div className="subOverlay">Personal Project</div>
                                             <div className="desOverlay">Awarded <span>"Best Overall Project"</span> <br/>by DevMountain</div>
-                                            <a href="#" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
+                                            <a href="https://wolf-creek-website.now.sh" target="_blank"><div className="liveSite">Website</div></a>
+                                            <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
                                             <a href="https://github.com/scottisyoung/Wolf-Creek" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | SASS | ES6 | Redux | HTML5 | NodeJS | 
-                                                                       ExpressJS | Massive | PostgresSQL | Stripe | Git | Auth0 | 
-                                                                       
+                                                                       ExpressJS | Massive | PostgresSQL | Stripe | Git | Auth0                            
                                             </div>
-                                            
                                         </div>
                                     </div>
                                     <div className="websites">
                                         <img className="proSnips" src={pageConsulting} alt="Restore Website"/>
                                         <div className="overlay">
-                                            <div className="titleOverlay">Page Consulting Website</div>
+                                                <div className="titleOverlay">Page Consulting Website</div>
                                                 <div className="subOverlay">Freelance Work</div>
                                                 <div className="desOverlay">Currently in Progress</div>
-                                                <a href="#" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
+                                                <a href="#projects" target="_blank"><div className="liveSite">Website</div></a>
+                                                <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
                                                 <a href="https://github.com/scottisyoung/Page-Consulting" target="_blank"><div className="gitHubLink">Github</div></a>
                                         </div>
                                     </div>
                                     <div className="websites">
                                         <img className="proSnips" src={restore} alt="Restore Website"/>
                                         <div className="overlay">
-                                        <div className="titleOverlay">Restore Website</div>
+                                            <div className="titleOverlay">Restore Website</div>
                                             <div className="subOverlay">Group Project</div>
                                             <div className="desOverlay">2 Week Project with 3 Member Team</div>
-                                            <a href="#" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
+                                            <a href="http://104.236.131.87:3300/#/" target="_blank"><div className="liveSite">Website</div></a>
+                                            <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
                                             <a href="https://github.com/scottisyoung/goodhabit" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | SASS | ES6 | Redux | HTML5 | NodeJS | 
-                                                                       ExpressJS | Massive | PostgresSQL | ParticleJS | Git | Auth0 |                       
+                                                                       ExpressJS | Massive | PostgresSQL | ParticleJS | Git | Auth0                        
+                                            </div> 
+                                        </div>
+                                    </div>
+
+                                    <div className="websites">
+                                        <img className="proSnips" src={amalfi} alt="Amalfi Website"/>
+                                        <div className="overlay">
+                                            <div className="titleOverlay">Amalfi Website</div>
+                                            <div className="subOverlay">Freelance Work</div>
+                                            <div className="desOverlay">1st Website / Free Volunteer Work for Restaurant</div>
+                                            <a href="http://www.amalfipizzaaz.com/" target="_blank"><div className="liveSite">Website</div></a>
+                                            <div className="libraries"> HTML5 | CSS3                                           
                                             </div> 
                                         </div>
                                     </div>
@@ -140,16 +156,41 @@ class Projects extends Component {
                             </div>
                             <div className={this.state.appsClosed ? 'close apps' : 'apps animated slideInUp'}>
                                 <div className="featuresParent">
-                                    <div className="websites">Weather App
-                                        <div className="overlay"></div>
+                                    <div className="websites">
+                                    <img className="proSnips" src={weather} alt="Weather App"/>
+                                        <div className="overlay">
+                                        <div className="titleOverlay">Weather Application</div>
+                                            <div className="subOverlay"></div>
+                                            <div className="desOverlay"></div>
+                                            <a href="#projects" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap                    
+                                            </div> 
+                                        </div>
                                     </div>
                                     <div className="websites">
                                         <img className="proSnips" src={todo} alt="Todo App"/>
-                                        <div className="overlay"></div>
+                                        <div className="overlay">
+                                            <div className="titleOverlay">To-Do Application</div>
+                                            <div className="subOverlay">2 Hour Project</div>
+                                            <div className="desOverlay">Front-End Only Basic App</div>
+                                            <a href="http://spotless-cannon.surge.sh/" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
+                                            </div> 
                                         </div>
+                                    </div>
                                     <div className="websites">
                                         <img className="proSnips" src={myAway} alt="My Away App"/>
-                                        <div className="overlay"></div>
+                                        <div className="overlay">
+                                        <div className="titleOverlay">myAway Application</div>
+                                            <div className="subOverlay">1 Day Project</div>
+                                            <div className="desOverlay">No Database Application</div>
+                                            <a href="http://disturbed-berry.surge.sh" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | ExpressJS                    
+                                            </div> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -157,11 +198,27 @@ class Projects extends Component {
                                 <div className="featuresParent">
                                     <div className="websites">
                                         <img className="proSnips" src={bigMarlin} alt="Big Marlin Clone"/>
-                                        <div className="overlay"></div>
+                                        <div className="overlay">
+                                            <div className="titleOverlay">Big Marlin Website Clone</div>
+                                            <div className="subOverlay">2 Day Project</div>
+                                            <div className="desOverlay">Official Website: https://bigmarlin.group</div>
+                                            <a href="http://sticky-kick.surge.sh/" target="_blank"><div className="liveSite">Website Clone</div></a>
+                                            <a href="https://github.com/scottisyoung/Big-Marlin-Group-Clone" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                                            
+                                            </div> 
+                                        </div>
                                     </div>
                                     <div className="websites">
                                         <img className="proSnips" src={rocketMedia} alt="Rocket Media Clone"/>
-                                        <div className="overlay"></div>
+                                        <div className="overlay">
+                                            <div className="titleOverlay">Rocket Media Website Clone</div>
+                                            <div className="subOverlay">2 Day Project</div>
+                                            <div className="desOverlay">Official Website: https://www.rocketmedia.com</div>
+                                            <a href="http://friendly-drop.surge.sh/#/" target="_blank"><div className="liveSite">Website Clone</div></a>
+                                            <a href="https://github.com/scottisyoung/Rocket-Media-Clone" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
+                                            </div> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>

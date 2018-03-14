@@ -37,7 +37,7 @@ class Skills extends Component {
             centerMode: true,
             centerPadding: "0px",
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 1500,
             fade: false,
             draggable: true,
             swipe: true,
