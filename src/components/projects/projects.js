@@ -7,7 +7,7 @@ import pageConsulting from '../../images-video/project-snippits/PageConsulting2.
 import restore from '../../images-video/project-snippits/Restore.png';
 import amalfi from '../../images-video/project-snippits/Amalfi.PNG';
 import weather from '../../images-video/project-snippits/Weather App.PNG';
-import todo from '../../images-video/project-snippits/ToDo.png';
+import todo from '../../images-video/project-snippits/To-Do.PNG';
 import myAway from '../../images-video/project-snippits/myAway.png';
 import rocketMedia from '../../images-video/project-snippits/RocketMedia.PNG';
 import bigMarlin from '../../images-video/project-snippits/BigMarlin.PNG';
@@ -174,7 +174,7 @@ class Projects extends Component {
                                             <div className="titleOverlay">To-Do Application</div>
                                             <div className="subOverlay">2 Hour Project</div>
                                             <div className="desOverlay">Front-End Only Basic App</div>
-                                            <a href="http://spotless-cannon.surge.sh/" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="http://fortunate-stove.surge.sh/" target="_blank"><div className="liveSite">Application</div></a>
                                             <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
                                             </div> 
