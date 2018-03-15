@@ -175,7 +175,7 @@ class Projects extends Component {
                                             <div className="subOverlay">2 Hour Project</div>
                                             <div className="desOverlay">Front-End Only Basic App</div>
                                             <a href="http://fortunate-stove.surge.sh/" target="_blank"><div className="liveSite">Application</div></a>
-                                            <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="https://github.com/scottisyoung/ToDo-App" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
                                             </div> 
                                         </div>
