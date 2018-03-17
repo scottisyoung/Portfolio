@@ -186,7 +186,7 @@ class Projects extends Component {
                                         <div className="titleOverlay">myAway Application</div>
                                             <div className="subOverlay">1 Day Project</div>
                                             <div className="desOverlay">No Database Application</div>
-                                            <a href="http://disturbed-berry.surge.sh" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="https://myaway.now.sh/" target="_blank"><div className="liveSite">Application</div></a>
                                             <a href="https://github.com/scottisyoung/myAway" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | ExpressJS                    
                                             </div> 
