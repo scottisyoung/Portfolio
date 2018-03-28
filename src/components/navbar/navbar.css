@@ -49,4 +49,15 @@
 
   a:visited {
     color: inherit;
+    text-decoration: none;
   }
+
+  #links {
+    text-decoration: none;
+    color: rgb(145, 145, 145); 
+  }
+
+  #links:hover {
+    color: rgb(4, 235, 252);
+    transition: 1s;
+}

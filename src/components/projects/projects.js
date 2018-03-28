@@ -106,9 +106,9 @@ class Projects extends Component {
                                             <div className="titleOverlay">Wolf Creek Website</div>
                                             <div className="subOverlay">Personal Project</div>
                                             <div className="desOverlay">Awarded <span>"Best Overall Project"</span> <br/>by DevMountain</div>
-                                            <a href="https://wolf-creek-website.now.sh" target="_blank"><div className="liveSite">Website</div></a>
-                                            <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
-                                            <a href="https://github.com/scottisyoung/Wolf-Creek" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="https://wolf-creek-website.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website</div></a>
+                                            <a href="#projects" target="_blank" rel="noopener noreferrer"><div className="videoWalk">Video Walkthrough</div></a>
+                                            <a href="https://github.com/scottisyoung/Wolf-Creek" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | SASS | ES6 | Redux | HTML5 | NodeJS | 
                                                                        ExpressJS | Massive | PostgresSQL | Stripe | Git | Auth0                            
                                             </div>
@@ -120,9 +120,9 @@ class Projects extends Component {
                                                 <div className="titleOverlay">Page Consulting Website</div>
                                                 <div className="subOverlay">Freelance Work</div>
                                                 <div className="desOverlay">Currently in Progress</div>
-                                                <a href="#projects" target="_blank"><div className="liveSite">Website</div></a>
-                                                <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
-                                                <a href="https://github.com/scottisyoung/Page-Consulting" target="_blank"><div className="gitHubLink">Github</div></a>
+                                                <a href="#projects" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website</div></a>
+                                                <a href="#projects" target="_blank" rel="noopener noreferrer"><div className="videoWalk">Video Walkthrough</div></a>
+                                                <a href="https://github.com/scottisyoung/Page-Consulting" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                         </div>
                                     </div>
                                     <div className="websites">
@@ -131,9 +131,9 @@ class Projects extends Component {
                                             <div className="titleOverlay">Restore Website</div>
                                             <div className="subOverlay">Group Project</div>
                                             <div className="desOverlay">2 Week Project with 3 Member Team</div>
-                                            <a href="http://104.236.131.87:3300/#/" target="_blank"><div className="liveSite">Website</div></a>
-                                            <a href="#projects" target="_blank"><div className="videoWalk">Video Walkthrough</div></a>
-                                            <a href="https://github.com/scottisyoung/goodhabit" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://104.236.131.87:3300/#/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website</div></a>
+                                            <a href="#projects" target="_blank" rel="noopener noreferrer"><div className="videoWalk">Video Walkthrough</div></a>
+                                            <a href="https://github.com/scottisyoung/goodhabit" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | SASS | ES6 | Redux | HTML5 | NodeJS | 
                                                                        ExpressJS | Massive | PostgresSQL | ParticleJS | Git | Auth0                        
                                             </div> 
@@ -146,7 +146,7 @@ class Projects extends Component {
                                             <div className="titleOverlay">Amalfi Website</div>
                                             <div className="subOverlay">Freelance Work</div>
                                             <div className="desOverlay">1st Website / Free Volunteer Work for Restaurant</div>
-                                            <a href="http://www.amalfipizzaaz.com/" target="_blank"><div className="liveSite">Website</div></a>
+                                            <a href="http://www.amalfipizzaaz.com/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website</div></a>
                                             <div className="libraries"> HTML5 | CSS3                                           
                                             </div> 
                                         </div>
@@ -162,8 +162,8 @@ class Projects extends Component {
                                         <div className="titleOverlay">Weather Application</div>
                                             <div className="subOverlay"></div>
                                             <div className="desOverlay"></div>
-                                            <a href="http://dangerous-slip.surge.sh" target="_blank"><div className="liveSite">Application</div></a>
-                                            <a href="https://github.com/scottisyoung/weather-app" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://absurd-mark.surge.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/weather-app" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap                    
                                             </div> 
                                         </div>
@@ -174,8 +174,8 @@ class Projects extends Component {
                                             <div className="titleOverlay">To-Do Application</div>
                                             <div className="subOverlay">2 Hour Project</div>
                                             <div className="desOverlay">Front-End Only Basic App</div>
-                                            <a href="http://fortunate-stove.surge.sh/" target="_blank"><div className="liveSite">Application</div></a>
-                                            <a href="https://github.com/scottisyoung/ToDo-App" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://fortunate-stove.surge.sh/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/ToDo-App" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
                                             </div> 
                                         </div>
@@ -186,8 +186,8 @@ class Projects extends Component {
                                         <div className="titleOverlay">myAway Application</div>
                                             <div className="subOverlay">1 Day Project</div>
                                             <div className="desOverlay">No Database Application</div>
-                                            <a href="https:myaway.now.sh" target="_blank"><div className="liveSite">Application</div></a>
-                                            <a href="https://github.com/scottisyoung/myAway" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="https:myaway.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/myAway" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | ExpressJS                    
                                             </div> 
                                         </div>
@@ -202,8 +202,8 @@ class Projects extends Component {
                                             <div className="titleOverlay">Big Marlin Website Clone</div>
                                             <div className="subOverlay">2 Day Project</div>
                                             <div className="desOverlay">Official Website: https://bigmarlin.group</div>
-                                            <a href="http://sticky-kick.surge.sh/" target="_blank"><div className="liveSite">Website Clone</div></a>
-                                            <a href="https://github.com/scottisyoung/Big-Marlin-Group-Clone" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://sticky-kick.surge.sh/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website Clone</div></a>
+                                            <a href="https://github.com/scottisyoung/Big-Marlin-Group-Clone" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                                            
                                             </div> 
                                         </div>
@@ -214,8 +214,8 @@ class Projects extends Component {
                                             <div className="titleOverlay">Rocket Media Website Clone</div>
                                             <div className="subOverlay">2 Day Project</div>
                                             <div className="desOverlay">Official Website: https://www.rocketmedia.com</div>
-                                            <a href="http://friendly-drop.surge.sh/#/" target="_blank"><div className="liveSite">Website Clone</div></a>
-                                            <a href="https://github.com/scottisyoung/Rocket-Media-Clone" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://friendly-drop.surge.sh/#/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website Clone</div></a>
+                                            <a href="https://github.com/scottisyoung/Rocket-Media-Clone" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
                                             </div> 
                                         </div>

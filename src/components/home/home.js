@@ -15,9 +15,9 @@ class Home extends Component {
                             </video>
                         </ScrollableAnchor>
 
+                        <div className="parent2">
                             <div className="name">SCOTT YOUNG<span className="dot">.</span></div>
 
-                        <div>
                             <div className="boxedParent">    
                                 <div className="boxed1">
                                     <div>
@@ -44,22 +44,18 @@ class Home extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                    
-
-                        
-                            <div className="downParent">
-                                <div className="down">
-                                    <a className="linkdown" href="#about">   
-                                        <div className="arrowDown">
-                                            <i className="fa fa-chevron-down"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
+                            </div>  
                         </div>
                     </div>
+                    <div className="downParent">
+                            <div className="down">
+                                <a className="linkdown" href="#about">   
+                                    <div className="arrowDown">
+                                        <i className="fa fa-chevron-down"></i>
+                                    </div>
+                                </a>
+                            </div>
+                    </div>  
                 </div>
             </div>
         )

@@ -59,7 +59,7 @@ class About extends Component {
                                 </div>
 
                                 <div className="myPicture">
-                                    <img className="photo" src={picture}/>
+                                    <img className="photo" src={picture} alt="developer profile"/>
                                 </div>
 
                                 <div className="amParent">
@@ -88,13 +88,13 @@ class About extends Component {
                                         <div className="linky">
                                             <div className="linksParent">
                                                 <div className="iconsParent">
-                                                    <div className="iconsF"><a href="https://github.com/scottisyoung"target="_blank"><div className="iSize"><i id="iconsF" className="fa fa-github-square"></i></div></a></div>
-                                                    <div className="iconsF"><a href="https://www.linkedin.com/in/scottyoung5/"target="_blank"><div className="iSize"><i id="iconsF" className="fa fa-linkedin-square"></i></div></a></div>
-                                                    <div className="iconsF"><a href="https://www.instagram.com/scottieboyyoung"target="_blank"><div className="iSize"><i id="iconsF" className="fa fa-instagram"></i></div></a></div>
-                                                    <div className="iconsF"><a href="https://www.facebook.com/scottisyoung"target="_blank"><div className="iSize"><i id="iconsF" className="fa fa-facebook-square"></i></div></a></div>
+                                                    <div className="iconsF"><a href="https://github.com/scottisyoung" target="_blank" rel="noopener noreferrer"><div className="iSize"><i id="iconsF" className="fa fa-github-square"></i></div></a></div>
+                                                    <div className="iconsF"><a href="https://www.linkedin.com/in/scottyoung5/" target="_blank" rel="noopener noreferrer"><div className="iSize"><i id="iconsF" className="fa fa-linkedin-square"></i></div></a></div>
+                                                    <div className="iconsF"><a href="https://www.instagram.com/scottieboyyoung" target="_blank" rel="noopener noreferrer"><div className="iSize"><i id="iconsF" className="fa fa-instagram"></i></div></a></div>
+                                                    <div className="iconsF"><a href="https://www.facebook.com/scottisyoung" target="_blank" rel="noopener noreferrer"><div className="iSize"><i id="iconsF" className="fa fa-facebook-square"></i></div></a></div>
                                                 </div>
                                                 <div className="otherParent">
-                                                    <div className="other"><a href="https://drive.google.com/open?id=1U08AegwTrn-pF3F7ckrUqqe8QDcL1HvU"target="_blank"><div className="Size" id="size"><span>Resume</span></div></a></div>
+                                                    <div className="other"><a href="https://drive.google.com/open?id=1U08AegwTrn-pF3F7ckrUqqe8QDcL1HvU" target="_blank" rel="noopener noreferrer"><div className="Size" id="size"><span>Resume</span></div></a></div>
                                                 </div>
                                             </div>
                                         </div>

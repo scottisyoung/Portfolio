@@ -54,105 +54,105 @@ class Skills extends Component {
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="redux" src={reduxIcon}/><hr/>Redux
+                                            <img className="redux" src={reduxIcon} alt="Redux Icon"/><hr/>Redux
                                         </div>
                                     </div>
                                 </div> 
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="node" src={nodeIcon}/><hr/>Node <span>JS</span>
+                                            <img className="node" src={nodeIcon} alt="Node Icon"/><hr/>Node <span>JS</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="express" src={expressIcon}/><hr/>Express
+                                            <img className="express" src={expressIcon} alt="Express Icon"/><hr/>Express
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="postgres" src={postgresIcon}/><hr/>Postgres<span>SQL</span>
+                                            <img className="postgres" src={postgresIcon} alt="Postgres Icon"/><hr/>Postgres<span>SQL</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="git" src={gitIcon}/><hr/>Git
+                                            <img className="git" src={gitIcon} alt="Git Icon"/><hr/>Git
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="github" src={gitHubIcon}/><hr/>GitHub
+                                            <img className="github" src={gitHubIcon} alt="GitHub Icon"/><hr/>GitHub
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="sass" src={sassIcon}/><hr/>Sass / Scss
+                                            <img className="sass" src={sassIcon} alt="Sass Icon"/><hr/>Sass / Scss
                                         </div>
                                     </div>
                                 </div> 
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="bootstrap" src={bootstrapIcon}/><hr/>Bootstrap
+                                            <img className="bootstrap" src={bootstrapIcon} alt="Bootstrap Icon"/><hr/>Bootstrap
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="stripe" src={stripeIcon}/><hr/>Stripe
+                                            <img className="stripe" src={stripeIcon} alt="Stripe Icon"/><hr/>Stripe
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="auth0" src={auth0Icon}/><hr/>Auth <span>0</span>
+                                            <img className="auth0" src={auth0Icon} alt="Auth0 Icon"/><hr/>Auth <span>0</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="angular" src={angularIcon}/><hr/>Angular <span>JS</span>
+                                            <img className="angular" src={angularIcon} alt="Angular Icon"/><hr/>Angular <span>JS</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="html" src={htmlIcon}/><hr/>html <span>5</span>
+                                            <img className="html" src={htmlIcon} alt="HTML5 Icon"/><hr/>html <span>5</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="css" src={cssIcon}/><hr/>css <span>3</span>
+                                            <img className="css" src={cssIcon} alt="CSS3 Icon"/><hr/>css <span>3</span>
                                         </div>
                                     </div>
                                 </div> 
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="js" src={javaScriptIcon}/><hr/>JavaScript
+                                            <img className="js" src={javaScriptIcon} alt="JavaScript Icon"/><hr/>JavaScript
                                         </div>
                                     </div>
                                 </div>
                                 <div className="slider">
                                     <div className="icons" id="icon">
                                         <div className="iconDes" id="iconhov">
-                                            <img className="react" src={reactIcon}/><hr/>React <span>JS</span>
+                                            <img className="react" src={reactIcon} alt="React Icon"/><hr/>React <span>JS</span>
                                         </div>
                                     </div>
                                 </div>                              
