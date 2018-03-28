@@ -162,8 +162,8 @@ class Projects extends Component {
                                         <div className="titleOverlay">Weather Application</div>
                                             <div className="subOverlay"></div>
                                             <div className="desOverlay"></div>
-                                            <a href="#projects" target="_blank"><div className="liveSite">Application</div></a>
-                                            <a href="#projects" target="_blank"><div className="gitHubLink">Github</div></a>
+                                            <a href="http://dangerous-slip.surge.sh" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/weather-app" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap                    
                                             </div> 
                                         </div>
@@ -186,7 +186,7 @@ class Projects extends Component {
                                         <div className="titleOverlay">myAway Application</div>
                                             <div className="subOverlay">1 Day Project</div>
                                             <div className="desOverlay">No Database Application</div>
-                                            <a href="myaway.now.sh" target="_blank"><div className="liveSite">Application</div></a>
+                                            <a href="https:myaway.now.sh" target="_blank"><div className="liveSite">Application</div></a>
                                             <a href="https://github.com/scottisyoung/myAway" target="_blank"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | ExpressJS                    
                                             </div> 
