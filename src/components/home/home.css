@@ -44,12 +44,12 @@
 
   .name {
     margin-top: 200px;
-    margin-left: 1200px;
+    margin-left: 1050px;
     margin-right: 50px;
     width: 450px;
     color: white;
     text-shadow: 2px 2px black;
-    position: relative;
+    position: absolute;
     left: 0%;
     top: 0%;
     font-size: 4em;
@@ -73,16 +73,18 @@
 
   .boxedParent {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 5px;
     margin-bottom: 400px;
+    position: relative;
   }
 
   .boxed1 {
-    margin-left: 1250px;
-    margin-right: -3px;
-    position: relative;
-    top: 0%;
-    left: 0%;
+    position: absolute;
+    top: 115px;
+    left: 255px;
     height: 100px;
     width: 300px;
     display: flex;
@@ -91,9 +93,9 @@
   }
 
   .boxed2 {
-    position: relative;
-    top: 0%;
-    right: 0%;
+    position: absolute;
+    top: 115px;
+    left: 555px;
     height: 100px;
     width: 300px;
     margin-left: -3px;
@@ -201,12 +203,11 @@
   }
 
   .down {
-    position: relative;
-    left: 0%;
-    right: 0%;
+    position: absolute;
+    top: 10px;
     height: 120px;
     z-index: 100;
-    width: 450px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
