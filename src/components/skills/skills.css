@@ -107,90 +107,109 @@ hr {
 }
 
 .html {
-    height: 90px;
+    width: 100px;
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 .css {
-    height: 90px;
+    width: 100px;
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 .js {
-    height: 130px;
-    width: 130px;
-    margin-top: -20px;
-    margin-bottom: -20px;
+    height: auto;
+    width: 140px;
+    margin-top: -25px;
+    margin-bottom: -25px;
 }
 
 .react {
-    height: 110px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    width: 120px;
+    height: auto;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 .redux {
-    height: 90px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    width: 110px;
+    height: auto;
 }
 
 .node {
-    height: 150px;
-    margin-top: -30px;
+    width: 160px;
+    height: auto;
+    margin-top: -40px;
     margin-bottom: -30px;
 }
 
 .express {
-    height: 110px;
-    margin-top: -10px;
+    width: 215px;
+    height: auto;
+    margin-top: -15px;
     margin-bottom: -10px;
 }
 
 .postgres {
-    margin-left: 5px;
-    height: 110px;
-    margin-top: -10px;
+    height: auto;
+    width: 110px;
+    margin-top: -12px;
     margin-bottom: -10px;
 }
 
 .git {
-    height: 110px;
+    height: auto;
+    width: 110px;
     margin-top: -10px;
     margin-bottom: -10px;
 }
 
 .github {
-    height: 110px;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    height: auto;
+    width: 110px;
+    margin-top: -15px;
+    margin-bottom: -5px;
 }
 
 .sass {
-    height: 100px;
+    height: auto;
+    width: 140px;
     margin-top: -10px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
 }
 
 .bootstrap {
-    height: 150px;
+    height: auto;
+    width: 150px;
     margin-top: -30px;
     margin-bottom: -30px;
 }
 
 .stripe {
     border-radius: 10px;
-    height: 100px;
+    height: auto;
+    width: 100px;
     margin-top: -5px;
     margin-bottom: -5px;
 }
 
 .auth0 {
-    height: 150px;
-    margin-top: -30px;
-    margin-bottom: -30px;
+    width: 160px;
+    height: auto;
+    margin-top: -35px;
+    margin-bottom: -35px;
 }
 
 .angular {
-    height: 120px;
-    margin-top: -20px;
-    margin-bottom: -10px;
+    width: 130px;
+    height: auto;
+    margin-top: -25px;
+    margin-bottom: -15px;
 }
 
 

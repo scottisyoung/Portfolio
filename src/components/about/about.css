@@ -79,6 +79,10 @@
     margin-top: -160px;
   }
 
+  #link {
+    text-decoration: none !important;
+  }
+
   .linky {
     text-align: left;
     text-decoration: none;
@@ -245,6 +249,10 @@
     transition: 2s;
   }
 
+  #topList {
+    margin-top: 10px;
+  }
+
   .lParent {
     display: flex;
     justify-content: flex-start;
@@ -312,15 +320,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 200px;
-    background-color: rgb(22, 22, 22);
+    height: auto;
+    width: 220px;
+    background-color: transparent;
     box-shadow: 30px 30px 1000px 3px rgba(5, 105, 122, 0.671);
     border-radius: 20px;
   }
 
   .photo {
-    height: 300px;
+    width: 220px;
+    height: auto;
     border-radius: 10px;
   }
 

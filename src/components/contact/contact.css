@@ -129,6 +129,14 @@
     transition: 2s;
 }
 
+#cd2 {
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 .myPhone span {
     color:rgb(116, 116, 116);
 }

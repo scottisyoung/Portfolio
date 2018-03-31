@@ -20,7 +20,7 @@ class About extends Component {
 
                                 <div className="amParent">
                                     <div className="paragraphs" id="realizedP">
-                                        <a className="linky" href="#about">
+                                        <a className="linky" id="link" href="#about">
                                             I have always had a passion for technology. I am facinated<br/> 
                                             with how things function and the ingenuity that goes into <br/>
                                             the designs. Along with this facination towards tech, I <br/> 
@@ -35,7 +35,7 @@ class About extends Component {
                                     </div>
 
                                     <div className="paragraphs" id="background">
-                                        <a className="linky" href="#about">
+                                        <a className="linky" id="link" href="#about">
                                             {/* I grew up in Farmington, NM and spent many of my <br/>
                                             weekends in Sounthern Colorado outdoors. When I was 19, <br/>
                                             I served a 2 year mission for my church in Antofagasta, <br/>
@@ -69,18 +69,16 @@ class About extends Component {
 
                                 <div className="amParent">
                                     <div className="paragraphs2" id="span1">
-                                        <a className="linky" href="#about">
+                                        <a className="linky" id="link" href="#about">
                                                 In addition to technology, I enjoy a variety of hobbies<br/> 
-                                                A few of my favorites are...<br/> 
-                                            <ul>
-                                                <li><div className="lParent"><div id="span2">Traveling:</div><div className="description">Excited by culture and visited 23 countries</div></div></li>
-                                                <li><div className="lParent"><div id="span2">Languages:</div><div className="description">Fluent Spanish and currently learning <br/>
-                                                                                                                                            Norwegian and Italian</div></div></li>
-                                                <li><div className="lParent"><div id="span2">Outdoors:</div><div className="description">Camping, hiking and rock climbing</div></div></li>
-                                                <li><div className="lParent"><div id="span2">Sports:</div><div className="description">Soccer, football, skiing, muay thai and golf </div></div></li>
-                                                <li><div className="lParent"><div id="span2">Fitness:</div><div className="description">Weight lifting, running and swimming</div></div></li>
-                                                <li><div className="lParent"><div id="span2">Arts:</div><div className="description">Guitar, painting, videography and photography</div></div></li>
-                                            </ul> 
+                                                A few of my favorites are... 
+                                                <div id="topList" className="lParent"><div id="span2">Traveling:</div><div className="description">Excited by culture and visited 23 countries</div></div>
+                                                <div className="lParent"><div id="span2">Languages:</div><div className="description">Fluent Spanish and currently learning <br/>
+                                                                                                                                            Norwegian and Italian</div></div>
+                                                <div className="lParent"><div id="span2">Outdoors:</div><div className="description">Camping, hiking and rock climbing</div></div>
+                                                <div className="lParent"><div id="span2">Sports:</div><div className="description">Soccer, football, skiing, muay thai and golf </div></div>
+                                                <div className="lParent"><div id="span2">Fitness:</div><div className="description">Weight lifting, running and swimming</div></div>
+                                                <div className="lParent"><div id="span2">Arts:</div><div className="description">Guitar, painting, videography and photography</div></div>
                                         </a>
                                     </div>
 

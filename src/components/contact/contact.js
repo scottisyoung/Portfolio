@@ -18,7 +18,7 @@ class Contact extends Component {
                                                     <div className="myName">Scott Young<span className="smallDot">.</span></div>
                                                     <div className="myTitle">Web <span className="dev">Developer</span></div>
                                                     <hr/>
-                                                    <div className="myEmail" id="cd2"><a href="mailto:scott.t.young1@gmail.com?subject=Contact from Portfolio" target="_blank" rel="noopener noreferrer"><span id="cd1">Email:</span> &emsp; scott.t.young1@gmail.com</a></div>
+                                                    <div className="myEmail" id="cd2"><a id="cd2" href="mailto:scott.t.young1@gmail.com?subject=Contact from Portfolio" target="_blank" rel="noopener noreferrer"><span id="cd1">Email:</span> &emsp; scott.t.young1@gmail.com</a></div>
                                                     <div className="myPhone" id="cd2"><span id="cd1">Phone:</span> &emsp;(602) 872-1677</div>
                                                     <hr/>
                                                     <a href="https://github.com/scottisyoung" target="_blank" rel="noopener noreferrer"><i id="cd3" className="fa fa-github-square"></i></a>
