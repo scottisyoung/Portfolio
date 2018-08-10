@@ -190,7 +190,7 @@ class Projects extends Component {
                                             <div className="desOverlay">Front & Back-End App</div>
                                             <a href="https://myaway.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
                                             <a href="https://github.com/scottisyoung/myAway" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
-                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | NodeJS | ExpressJS                    
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | NodeJS | Git | Bootstrap | ExpressJS                    
                                             </div> 
                                         </div>
                                     </div>
