@@ -6,9 +6,11 @@ import wolfCreek from '../../images-video/project-snippits/WolfCreek.png';
 import pageConsulting from '../../images-video/project-snippits/PageConsulting2.png';
 import restore from '../../images-video/project-snippits/Restore.png';
 import amalfi from '../../images-video/project-snippits/Amalfi.PNG';
+import magic from '../../images-video/project-snippits/Magic-8.png';
 import weather from '../../images-video/project-snippits/Weather App.PNG';
 import todo from '../../images-video/project-snippits/To-Do.PNG';
 import myAway from '../../images-video/project-snippits/myAway.png';
+import malouf from '../../images-video/project-snippits/Malouf.png';
 import rocketMedia from '../../images-video/project-snippits/RocketMedia.PNG';
 import bigMarlin from '../../images-video/project-snippits/BigMarlin.PNG';
 
@@ -157,14 +159,38 @@ class Projects extends Component {
                             <div className={this.state.appsClosed ? 'close apps' : 'apps animated slideInUp'}>
                                 <div className="featuresParent">
                                     <div className="websites">
+                                    <img className="proSnips" src={magic} alt="Magic 8-Ball"/>
+                                        <div className="overlay">
+                                        <div className="titleOverlay">Magic 8-Ball Application</div>
+                                            <div className="subOverlay">3 Day Project</div>
+                                            <div className="desOverlay">Random-Sort Algorithm App</div>
+                                            <a href="http://hard-to-find-mind.surge.sh/" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/eightball" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git |                     
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div className="websites">
                                     <img className="proSnips" src={weather} alt="Weather App"/>
                                         <div className="overlay">
                                         <div className="titleOverlay">Weather Application</div>
-                                            <div className="subOverlay"></div>
-                                            <div className="desOverlay"></div>
+                                            <div className="subOverlay">2 Day Project</div>
+                                            <div className="desOverlay">Weather API App</div>
                                             <a href="http://nervous-division.surge.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
                                             <a href="https://github.com/scottisyoung/weather-app" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
                                             <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap                    
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div className="websites">
+                                        <img className="proSnips" src={myAway} alt="My Away App"/>
+                                        <div className="overlay">
+                                        <div className="titleOverlay">myAway Application</div>
+                                            <div className="subOverlay">1 Day Project</div>
+                                            <div className="desOverlay">Front & Back-End App</div>
+                                            <a href="https://myaway.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
+                                            <a href="https://github.com/scottisyoung/myAway" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | NodeJS | ExpressJS                    
                                             </div> 
                                         </div>
                                     </div>
@@ -180,22 +206,22 @@ class Projects extends Component {
                                             </div> 
                                         </div>
                                     </div>
-                                    <div className="websites">
-                                        <img className="proSnips" src={myAway} alt="My Away App"/>
-                                        <div className="overlay">
-                                        <div className="titleOverlay">myAway Application</div>
-                                            <div className="subOverlay">1 Day Project</div>
-                                            <div className="desOverlay">No Database Application</div>
-                                            <a href="https://myaway.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Application</div></a>
-                                            <a href="https://github.com/scottisyoung/myAway" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
-                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git | Bootstrap | ExpressJS                    
-                                            </div> 
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div className={this.state.clonesClosed ? 'close clones' : 'clones animated slideInRight'}>
                                 <div className="featuresParent">
+                                    <div className="websites">
+                                        <img className="proSnips" src={malouf} alt="Malouf Clone"/>
+                                        <div className="overlay">
+                                            <div className="titleOverlay">Malouf "Responsive" Clone</div>
+                                            <div className="subOverlay">1 Week Project</div>
+                                            <div className="desOverlay">Fully Responsive Website with Video Pop-Up Modal</div>
+                                            <a href="http://malouf.now.sh" target="_blank" rel="noopener noreferrer"><div className="liveSite">Website Clone</div></a>
+                                            <a href="https://github.com/scottisyoung/malouf" target="_blank" rel="noopener noreferrer"><div className="gitHubLink">Github</div></a>
+                                            <div className="libraries">ReactJS | HTML5 | CSS3 | ES6 | Git                     
+                                            </div> 
+                                        </div>
+                                    </div>
                                     <div className="websites">
                                         <img className="proSnips" src={bigMarlin} alt="Big Marlin Clone"/>
                                         <div className="overlay">

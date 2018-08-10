@@ -21,9 +21,9 @@ class About extends Component {
                                 <div className="amParent">
                                     <div className="paragraphs" id="realizedP">
                                         <a className="linky" id="link" href="#about">
-                                            I have always had a passion for technology. I am facinated<br/> 
+                                            I have always had a passion for technology. I am fascinated<br/> 
                                             with how things function and the ingenuity that goes into <br/>
-                                            the designs. Along with this facination towards tech, I <br/> 
+                                            the designs. Along with this inclination towards tech, I <br/> 
                                             was fortunate to be given a very creative mind. I love being <br/>
                                             artistic and utilizing my creativity in a variety of ways.<br/> 
                                             However, I initially saw these aspirations as simply hobbies.<br/> 
@@ -92,7 +92,7 @@ class About extends Component {
                                                     <div className="iconsF"><a href="https://www.facebook.com/scottisyoung" target="_blank" rel="noopener noreferrer"><div className="iSize"><i id="iconsF" className="fa fa-facebook-square"></i></div></a></div>
                                                 </div>
                                                 <div className="otherParent">
-                                                    <div className="other"><a href="https://drive.google.com/open?id=1U08AegwTrn-pF3F7ckrUqqe8QDcL1HvU" target="_blank" rel="noopener noreferrer"><div className="Size" id="size"><span>Resume</span></div></a></div>
+                                                    <div className="other"><a href="https://drive.google.com/open?id=1D7Tsim4XqdzkqjZ0Krnoc3ljiqa2Zv5c" target="_blank" rel="noopener noreferrer"><div className="Size" id="size"><span>Resume</span></div></a></div>
                                                 </div>
                                             </div>
                                         </div>
