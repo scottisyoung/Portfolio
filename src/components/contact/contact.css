@@ -96,7 +96,11 @@
     color: rgb(168, 168, 168);
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+#cd2 a {
+    text-decoration: none !important;
 }
 
 .myEmail span {
@@ -112,16 +116,19 @@
 #cd:hover #cd1 {
     color: rgb(4, 235, 252);
     transition: 2s;
+    text-decoration: none !important;
 }
 
 #cd:hover #cd2 {
     color: white;
     transition: 2s;
+    text-decoration: none !important;
 }
 
 #cd:hover #cd3 {
     color: rgb(4, 235, 252);
     transition: 2s;
+    text-decoration: none !important;
 }
 
 #cd:hover hr {
@@ -187,7 +194,7 @@ textarea {
     overflow: auto;
     resize: none;
     outline: none;
-    height: 250px;
+    height: 230px;
     width: 400px;
 }
 

@@ -18,7 +18,13 @@ class Contact extends Component {
                                                     <div className="myName">Scott Young<span className="smallDot">.</span></div>
                                                     <div className="myTitle">Web <span className="dev">Developer</span></div>
                                                     <hr/>
-                                                    <div className="myEmail" id="cd2"><a id="cd2" href="mailto:scott.t.young1@gmail.com?subject=Contact from Portfolio" target="_blank" rel="noopener noreferrer"><span id="cd1">Email:</span> &emsp; scott.t.young1@gmail.com</a></div>
+                                                    <div className="myEmail" id="cd2">
+                                                         <a id="cd2" 
+                                                            href="mailto:scott.t.young1@gmail.com?subject=Contact from Portfolio" 
+                                                            target="_blank" rel="noopener noreferrer">
+                                                            <span id="cd1">Email:</span>&emsp; scott.t.young1@gmail.com
+                                                        </a>
+                                                    </div>
                                                     <div className="myPhone" id="cd2"><span id="cd1">Phone:</span> &emsp;(602) 872-1677</div>
                                                     <hr/>
                                                     <a href="https://github.com/scottisyoung" target="_blank" rel="noopener noreferrer"><i id="cd3" className="fa fa-github-square"></i></a>
@@ -27,12 +33,15 @@ class Contact extends Component {
                                                     <a href="https://www.facebook.com/scottisyoung" target="_blank" rel="noopener noreferrer"><i id="cd3" className="fa fa-facebook-square"></i></a>
                                                 </div>
 
-                                                <form action="mailto:scott.t.young1@gmail.com?subject=Contact from Portfolio" method="post" encType="text/plain">
+                                                {/* <form action="MAILTO:scott.t.young1@gmail.com?subject=Contact from Portfolio" method="post" encType="text/plain">
                                                     <div className="input1">
                                                         <input name="name" type="text" placeholder="Full Name" required></input>
                                                     </div>
                                                     <div className="input2">
                                                         <input name="mail" type="text" placeholder="Email Address" required></input>
+                                                    </div>
+                                                    <div className="input2">
+                                                        <input name="company" type="text" placeholder="Business Name"></input>
                                                     </div>
                                                     <div className="input3">
                                                         <textarea id="message" name="message" placeholder="Message" required></textarea>
@@ -40,7 +49,7 @@ class Contact extends Component {
                                                     <div className="sendParent">
                                                         <input id="sending" type="submit" value="send"></input>
                                                     </div>
-                                                </form>
+                                                </form> */}
                                             </div>
                                         </div>
                                     </div>
