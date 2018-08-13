@@ -1,8 +1,42 @@
 import React, { Component } from 'react';
 import './contact.css';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import axios from 'axios';
 
 class Contact extends Component {
+    constructor() {
+        super()
+        
+        this.state = {
+            name: '',
+            email: '',
+            business: '',
+            message: ''
+        }
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange = e => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
+    async handleSubmit(e) {
+        e.preventDefault()
+        e.target.reset();
+
+        const {name, email, business, message} = this.state
+        
+        const form = await axios.post('/api/form', {
+           name, 
+           email,
+           business,
+           message 
+        })
+    }
 
     render() {
         return(
@@ -33,27 +67,41 @@ class Contact extends Component {
                                                     <a href="https://www.facebook.com/scottisyoung" target="_blank" rel="noopener noreferrer"><i id="cd3" className="fa fa-facebook-square"></i></a>
                                                 </div>
 
-                                                {/* <form action="MAILTO:scott.t.young1@gmail.com?subject=Contact from Portfolio" method="post" encType="text/plain">
+                                                <form onSubmit={this.handleSubmit}>
                                                     <div className="input1">
-                                                        <input name="name" type="text" placeholder="Full Name" required></input>
+                                                        <input name="name" 
+                                                               type="text" 
+                                                               onChange={this.handleChange} 
+                                                               placeholder="Full Name" 
+                                                               required></input>
                                                     </div>
                                                     <div className="input2">
-                                                        <input name="mail" type="text" placeholder="Email Address" required></input>
+                                                        <input name="email" 
+                                                               type="text" 
+                                                               onChange={this.handleChange} 
+                                                               placeholder="Email Address" 
+                                                               required></input>
                                                     </div>
                                                     <div className="input2">
-                                                        <input name="company" type="text" placeholder="Business Name"></input>
+                                                        <input name="business" 
+                                                               type="text" 
+                                                               onChange={this.handleChange} 
+                                                               placeholder="Business Name"></input>
                                                     </div>
                                                     <div className="input3">
-                                                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                                                        <textarea id="message" 
+                                                                  name="message" 
+                                                                  onChange={this.handleChange} 
+                                                                  placeholder="Message" 
+                                                                  required></textarea>
                                                     </div>
                                                     <div className="sendParent">
                                                         <input id="sending" type="submit" value="send"></input>
                                                     </div>
-                                                </form> */}
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
-                    
             
                     </ScrollableAnchor>
                 </div>

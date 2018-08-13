@@ -2,14 +2,10 @@ require('dotenv').config();
 const express = require("express"),
       bodyParser = require("body-parser"),
       nodemailer = require("nodemailer"),
-      exphbs = require("express-handlebars"),
       cors = require("cors");
 
 const app = express();
 
-// View Engine Setup
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
 
 // Body Parser Middleware: 
 app.use(bodyParser.urlencoded({extended: false}))
@@ -19,14 +15,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Static Folder
-// app.use(express.static(`${__dirname}/../build`));
+app.use(express.static(`${__dirname}/../build`));
 
-// Contact Form | Nodemailer
-app.get('/', (req, res) => {
-    res.render('contact');
-});
-
-app.post('/send', (req, res) => {
+app.post('/api/form', (req, res) => {
   const output = `
   <p> You have a new contact from your Portfolio</p>
   <h5> Contact Details </h5>
@@ -40,48 +31,46 @@ app.post('/send', (req, res) => {
   <p> ${req.body.message} </p>
   `;
 
-  // NODEMAILER
-
+   // NODEMAILER
    // create reusable transporter object using the default SMTP transport
    let transporter = nodemailer.createTransport({
-    host: 'smtp.zoho.com',
-    port: 587,
-    secure: false, // true for 465, false for other ports
-    auth: {
-        user: 'scottyoung@scottyoung.tech', 
-        pass: process.env.PASSWORD 
-    },
-    tls: {
-        rejectUnauthorized:false
-    }
-});
+        host: 'smtp.zoho.com',
+        port: 587,
+        secure: false, // true for 465, false for other ports
+        auth: {
+            user: 'scottyoung@scottyoung.tech', 
+            pass: process.env.PASSWORD 
+        },
+        tls: {
+            rejectUnauthorized:false
+        }
+    });
 
-// setup email data with unicode symbols
-let mailOptions = {
-    from: '"Scott Young\'s Portfolio" <scottyoung@scottyoung.tech>', // sender address
-    to: 'scottyoung@scottyoung.tech, scott.t.young1@gmail.com', // list of receivers
-    subject: 'New Portfolio Message', // Subject line
-    text: 'Hello world?', // plain text body
-    html: output // html body
-};
+    // setup email data with unicode symbols
+    let mailOptions = {
+        from: '"Scott Young\'s Portfolio" <scottyoung@scottyoung.tech>', // sender address
+        to: 'scottyoung@scottyoung.tech, scott.t.young1@gmail.com', // list of receivers
+        subject: 'New Portfolio Message', // Subject line
+        text: 'Hello world?', // plain text body
+        html: output // html body
+    };
 
-// send mail with defined transport object
-transporter.sendMail(mailOptions, (error, info) => {
+    // send mail with defined transport object
+    transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
         return console.log(error);
     }
     console.log('Message sent: %s', info.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-    res.render('contact', {msg: "Email has been sent"})
-});
+    });
 });
 
 
 // Build
-// app.get('*', (req, res) => {
-//     res.sendFile(path.join(__dirname, '../build/index.html'));
-// })
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 
 // PORT
 const PORT = 3080;
