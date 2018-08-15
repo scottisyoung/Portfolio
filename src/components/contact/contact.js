@@ -13,12 +13,14 @@ class Contact extends Component {
             business: '',
             message: '',
 
-            thankYouGiven: false
+            thankYouGiven: false,
+
         };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.thankYou = this.thankYou.bind(this);
+        this.reset = this.reset.bind(this);
     }
 
     handleChange = e => {
@@ -41,10 +43,25 @@ class Contact extends Component {
         })
     }
 
+        reset() {
+            document.getElementById("email").setAttribute("disabled", this.state.email);
+            document.getElementById("message").setAttribute("disabled", this.state.message);
+
+            this.setState({
+                thankYouGiven: false,
+                name: '',
+                email: '',
+                business: '',
+                message: ''
+            })
+        }
+
         thankYou() {
         this.setState({
             thankYouGiven: !this.state.thankYouGiven
         })
+
+        setTimeout(this.reset,4000)
     }
 
     render() {
@@ -78,36 +95,50 @@ class Contact extends Component {
 
                                                 <form onSubmit={this.handleSubmit}>
                                                     <div className="input1">
-                                                        <input name="name" 
-                                                               type="text" 
+                                                        <input name="name"
+                                                               id="name"
+                                                               type="text"
                                                                onChange={this.handleChange} 
-                                                               placeholder="Full Name" 
-                                                               required></input>
+                                                               placeholder="Full Name"></input>
                                                     </div>
                                                     <div className="input2">
-                                                        <input name="email" 
+                                                        <input name="email"
+                                                               id="email"
+                                                               disabled={!this.state.name} 
                                                                type="text" 
-                                                               onChange={this.handleChange} 
-                                                               placeholder="Email Address" 
-                                                               required></input>
+                                                               onChange={this.handleChange}
+                                                               onClick={this.handleMessage} 
+                                                               placeholder="Email Address"></input>
                                                     </div>
                                                     <div className="input2">
-                                                        <input name="business" 
+                                                        <input name="business"
+                                                               id="business"
+                                                               disabled={!this.state.name} 
+                                                               disabled={!this.state.email}  
                                                                type="text" 
                                                                onChange={this.handleChange} 
                                                                placeholder="Business Name"></input>
                                                     </div>
                                                     <div className="input3">
                                                         <textarea id="message" 
-                                                                  name="message" 
+                                                                  name="message"
+                                                                  disabled={!this.state.name} 
+                                                                  disabled={!this.state.email}
                                                                   onChange={this.handleChange} 
-                                                                  placeholder="Message" 
-                                                                  required></textarea>
+                                                                  placeholder="Message"></textarea>
                                                     </div>
                                                     <div className="sendParent">
-                                                        <input id="sending" type="submit" value="send" onClick={this.thankYou}></input>
+                                                        <input id="register" 
+                                                               className="sending"
+                                                               describedby="name email message" 
+                                                               type="submit" 
+                                                               value="send"
+                                                               disabled={!this.state.name}
+                                                               disabled={!this.state.email}
+                                                               disabled={!this.state.message} 
+                                                               onClick={this.thankYou}></input>
                                                     </div>
-                                                    <div className={this.state.thankYouGiven ? "emailSent" : "cleanWindow"}>
+                                                    <div id="reset" className={this.state.thankYouGiven ? "emailSent" : "cleanWindow"}>
                                                         <p>Your email has been sent, thank you.</p>
                                                     </div>
                                                 </form>

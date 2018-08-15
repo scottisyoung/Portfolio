@@ -214,7 +214,7 @@ textarea {
     height: 45px;
 }
 
-#sending {
+.sending {
     background-color: white;
     height: 45px;
     width: 423px;
@@ -227,7 +227,7 @@ textarea {
     cursor: pointer;
 }
 
-#sending:hover {
+.sending:hover {
     background-color:rgb(116, 116, 116);
     color: white;
     transition: .5s;
