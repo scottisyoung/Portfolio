@@ -194,7 +194,7 @@ textarea {
     overflow: auto;
     resize: none;
     outline: none;
-    height: 230px;
+    height: 200px;
     width: 400px;
 }
 
@@ -233,4 +233,24 @@ textarea {
     transition: .5s;
 }
 
+.emailSent {
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(4, 235, 252);
+    text-shadow: .5px .5px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cleanWindow {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+    transition: .0s;
+    -webkit-transition: .0s;
+    -moz-transition: .0s;
+    -ms-transition: .0s;
+    -o-transition: .0s;
+}
 

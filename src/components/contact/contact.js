@@ -11,11 +11,14 @@ class Contact extends Component {
             name: '',
             email: '',
             business: '',
-            message: ''
-        }
+            message: '',
+
+            thankYouGiven: false
+        };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.thankYou = this.thankYou.bind(this);
     }
 
     handleChange = e => {
@@ -35,6 +38,12 @@ class Contact extends Component {
            email,
            business,
            message 
+        })
+    }
+
+        thankYou() {
+        this.setState({
+            thankYouGiven: !this.state.thankYouGiven
         })
     }
 
@@ -96,7 +105,10 @@ class Contact extends Component {
                                                                   required></textarea>
                                                     </div>
                                                     <div className="sendParent">
-                                                        <input id="sending" type="submit" value="send"></input>
+                                                        <input id="sending" type="submit" value="send" onClick={this.thankYou}></input>
+                                                    </div>
+                                                    <div className={this.state.thankYouGiven ? "emailSent" : "cleanWindow"}>
+                                                        <p>Your email has been sent, thank you.</p>
                                                     </div>
                                                 </form>
                                             </div>
